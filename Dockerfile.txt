@@ -8,8 +8,6 @@ ADD ObjectSpyWeb.war /usr/local/tomcat/webapps/ObjectSpyWeb.war
 
 ADD ObjectSpy.jar /usr/local/tomcat/webapps/ROOT/ObjectSpy.jar
 
-RUN wget https://github.com/smysnk/saddlewoof/blob/master/docker-sensor/wildfly/modules/system/layers/base/com/mysql/main/mysql-connector-java-5.1.24-bin.jar -O mysql-connector-java-5.1.24-bin.jar
-
 ADD mysql-connector-java-5.1.24-bin.jar /usr/local/tomcat/webapps/ROOT/mysql-connector-java-5.1.24-bin.jar
 
 RUN wget https://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar -O selenium-server-standalone-2.44.0.jar
