@@ -17,3 +17,4 @@ ADD jersey-client-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-client-1.9.1.j
 ADD jersey-core-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-core-1.9.1.jar
 
 ADD jersey-server-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-server-1.9.1.jar
+
