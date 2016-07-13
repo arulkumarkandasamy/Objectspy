@@ -10,17 +10,10 @@ ADD ObjectSpy.jar /usr/local/tomcat/webapps/ROOT/ObjectSpy.jar
 
 ADD mysql-connector-java-5.1.24-bin.jar /usr/local/tomcat/webapps/ROOT/mysql-connector-java-5.1.24-bin.jar
 
-RUN wget https://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar -O selenium-server-standalone-2.44.0.jar
-
 ADD selenium-server-standalone-2.44.0.jar /usr/local/tomcat/webapps/ROOT/selenium-server-standalone-2.44.0.jar
-
-RUN wget http://search.maven.org/remotecontent?filepath=com/sun/jersey/jersey-client/1.9.1/jersey-client-1.9.1.jar -O jersey-client-1.9.1.jar
 
 ADD jersey-client-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-client-1.9.1.jar
 
-RUN wget http://search.maven.org/remotecontent?filepath=com/sun/jersey/jersey-core/1.9.1/jersey-core-1.9.1.jar -O jersey-core-1.9.1.jar
-
 ADD jersey-core-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-core-1.9.1.jar
 
-RUN wget http://search.maven.org/remotecontent?filepath=com/sun/jersey/jersey-server/1.9.1/jersey-server-1.9.1.jar -O jersey-server-1.9.1.jar
 ADD jersey-server-1.9.1.jar /usr/local/tomcat/webapps/ROOT/jersey-server-1.9.1.jar
